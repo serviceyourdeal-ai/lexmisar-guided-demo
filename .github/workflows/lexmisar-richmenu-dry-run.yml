@@ -1,0 +1,21 @@
+name: LEXMISAR Rich Menu - Offline Dry Run
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-only:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout test branch read-only
+        uses: actions/checkout@v4
+        with:
+          ref: prep/richmenu-dry-run
+          persist-credentials: false
+      - name: Verify guided demo entry point
+        run: test -f index.html
+      - name: Validate two JPEGs, JSON and 13 hotspots (offline)
+        run: python3 scripts/validate_richmenus_offline.py
