@@ -1,0 +1,24 @@
+name: LEXMISAR Rich Menu - Offline Dry Run
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-only:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Verify staging safety rules
+        shell: bash
+        run: |
+          set -euo pipefail
+          echo "LEXMISAR OFFLINE DRY RUN"
+          echo "No LINE token, no LINE API request, no rich menu creation."
+          echo "No default rich menu changes and no user linking."
+          test -f index.html
+          echo "Repository entry point exists."
+          echo "PASS: static checks only."
