@@ -1,0 +1,103 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 1686
+  },
+  "selected": false,
+  "name": "LEXMISAR-FINAL-A-v1.1",
+  "chatBarText": "เมนู LMS A",
+  "areas": [
+    {
+      "bounds": {
+        "x": 38,
+        "y": 294,
+        "width": 1329,
+        "height": 856
+      },
+      "action": {
+        "type": "uri",
+        "label": "ทดลอง LMS",
+        "uri": "https://serviceyourdeal-ai.github.io/lexmisar-guided-demo/"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1392,
+        "y": 326,
+        "width": 477,
+        "height": 642
+      },
+      "action": {
+        "type": "message",
+        "label": "อยากทราบว่า LMS ช่วย",
+        "text": "อยากทราบว่า LMS ช่วยร้านเสริมสวยอย่างไร"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1878,
+        "y": 326,
+        "width": 569,
+        "height": 642
+      },
+      "action": {
+        "type": "message",
+        "label": "ขอดูฟีเจอร์หลักของ L",
+        "text": "ขอดูฟีเจอร์หลักของ LMS"
+      }
+    },
+    {
+      "bounds": {
+        "x": 38,
+        "y": 1170,
+        "width": 665,
+        "height": 424
+      },
+      "action": {
+        "type": "message",
+        "label": "ปรึกษาปัญหาการจัดคิว",
+        "text": "ปรึกษาปัญหาการจัดคิวของร้าน"
+      }
+    },
+    {
+      "bounds": {
+        "x": 711,
+        "y": 1170,
+        "width": 655,
+        "height": 424
+      },
+      "action": {
+        "type": "message",
+        "label": "ขอดูตัวอย่างการใช้งา",
+        "text": "ขอดูตัวอย่างการใช้งาน LMS"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1390,
+        "y": 985,
+        "width": 1056,
+        "height": 516
+      },
+      "action": {
+        "type": "message",
+        "label": "ต้องการติดต่อทีมงาน ",
+        "text": "ต้องการติดต่อทีมงาน LEXMISAR"
+      }
+    },
+    {
+      "bounds": {
+        "x": 2124,
+        "y": 1501,
+        "width": 322,
+        "height": 129
+      },
+      "action": {
+        "type": "richmenuswitch",
+        "label": "ไปหน้า 2",
+        "richMenuAliasId": "lexmisar-menu-b",
+        "data": "switch_to_b"
+      }
+    }
+  ]
+}
