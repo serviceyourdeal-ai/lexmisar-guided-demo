@@ -10,15 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
-      - name: Verify staging safety rules
-        shell: bash
-        run: |
-          set -euo pipefail
-          echo "LEXMISAR OFFLINE DRY RUN"
-          echo "No LINE token, no LINE API request, no rich menu creation."
-          echo "No default rich menu changes and no user linking."
-          test -f index.html
-          echo "Repository entry point exists."
-          echo "PASS: static checks only."
+      - name: Verify guided demo entry point
+        run: test -f index.html
+      - name: Validate A and B assets and 13 hotspots (offline)
+        run: python3 scripts/validate_richmenus_offline.py
