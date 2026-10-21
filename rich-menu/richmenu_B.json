@@ -1,0 +1,90 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 1686
+  },
+  "selected": false,
+  "name": "LEXMISAR-FINAL-B-v1.1",
+  "chatBarText": "เมนู LMS B",
+  "areas": [
+    {
+      "bounds": {
+        "x": 50,
+        "y": 333,
+        "width": 1042,
+        "height": 1119
+      },
+      "action": {
+        "type": "message",
+        "label": "ต้องการนัดสาธิต LEXM",
+        "text": "ต้องการนัดสาธิต LEXMISAR"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1100,
+        "y": 333,
+        "width": 688,
+        "height": 578
+      },
+      "action": {
+        "type": "message",
+        "label": "คำถามที่พบบ่อยเกี่ยว",
+        "text": "คำถามที่พบบ่อยเกี่ยวกับ LMS"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1797,
+        "y": 333,
+        "width": 633,
+        "height": 578
+      },
+      "action": {
+        "type": "message",
+        "label": "ขอวิธีใช้งาน LMS",
+        "text": "ขอวิธีใช้งาน LMS"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1100,
+        "y": 923,
+        "width": 445,
+        "height": 529
+      },
+      "action": {
+        "type": "message",
+        "label": "ขอรายละเอียดบริการ L",
+        "text": "ขอรายละเอียดบริการ LEXMISAR"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1552,
+        "y": 923,
+        "width": 434,
+        "height": 529
+      },
+      "action": {
+        "type": "message",
+        "label": "ขอดูสถานการณ์ตัวอย่า",
+        "text": "ขอดูสถานการณ์ตัวอย่าง LMS"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1994,
+        "y": 923,
+        "width": 436,
+        "height": 529
+      },
+      "action": {
+        "type": "richmenuswitch",
+        "label": "กลับหน้าแรก",
+        "richMenuAliasId": "lexmisar-menu-a",
+        "data": "switch_to_a"
+      }
+    }
+  ]
+}
